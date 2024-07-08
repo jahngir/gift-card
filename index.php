@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom Gift Card Plugin
 Description: A plugin to create and manage gift cards with a custom form and PayPal payment integration.
-Version: 1.0
+Version: 1.6
 Author: Jay Dev
 */
 
