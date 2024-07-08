@@ -1,0 +1,50 @@
+div#order-summary {
+  border-top: 2px solid black;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+#order-summary tbody {
+  border-radius: 10px;
+}
+#order-summary tbody,
+#order-summary tr,
+#order-summary td {
+  background: white !important;
+  border: none;
+}
+
+#order-summary td {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 3px 0 !important;
+}
+#order-gift-name,
+#order-gift-item,
+#order-total-price {
+  text-align: end;
+}
+
+.plugin-css {
+  display: flex;
+}
+
+.form-css {
+  padding: 0 20px;
+  width: 60%;
+}
+
+.form-preview {
+  padding: 0 20px;
+  width: 40%;
+  position: relative;
+}
+
+form#gift-card-form {
+  width: 93%;
+}
+.form-preview{
+  height: min-content;
+}
+#gift-card-content h5 {
+  text-align: center ;
+}
