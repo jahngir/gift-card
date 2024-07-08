@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom Gift Card Plugin
 Description: A plugin to create and manage gift cards with a custom form and PayPal payment integration.
-Version: 1.6
+Version: 1.0.2
 Author: Jay Dev
 */
 
@@ -230,7 +230,6 @@ document.addEventListener('DOMContentLoaded', function () {
             
                             title: "Order Completed",
                             text: "Gift Card Sent Successfully",
-                            text: `Transaction completed by ${details.payer.name.given_name}`,
                             icon: "success"
                         });
 
